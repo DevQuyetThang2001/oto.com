@@ -1,0 +1,114 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .box_login-acc {
+       visibility: hidden;
+    }
+    .header_right {
+      display: inline-block;
+      margin: 10px 20px;
+    }
+    .box_search-head {
+      position: relative;
+      top: 10px;
+    }
+    .logo_img {
+      width: 100%;
+      object-fit: contain;
+    }
+    .details_car {
+      margin: 5px;
+    }
+    .footer_title {
+      text-align: center;
+    }
+    .youtube_title {
+      text-align: center;
+    }
+    .menu {
+      display: none;
+    }
+    .menu_mobile {
+      display: block;
+      font-size: 30px;
+      padding: 0 20px;
+      position: relative;
+    }
+    .menu_mobile-location {
+      background: #fff;
+      position:fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transform: translateX(-100%);
+      transition: .3s ease-in;
+    }
+    .menu_mobile-location.active {
+      transform: translateX(0);
+    }
+
+    .menu_mobile-item {
+      list-style: none;
+      font-weight:bold;
+      padding: 40px;
+      border-bottom: 1px solid #f3f3f3;
+      text-align: center;
+      font-size: 3rem;
+    }
+    .menu_mobile-account {
+      text-align: center;
+      
+    }
+    .menu_mobile-login{
+      display:block;
+      width: 100%;
+      font-weight: bold;
+      background: #4db848;
+      color: #fff;    
+      padding: 20px;
+      
+    }
+    .menu_mobile-close {
+      font-size: 3rem;
+      color: #fff;
+      background-color: rgb(178, 14, 14);
+      font-weight: bold;
+      text-align: center;
+      padding: 20px 0;
+      cursor: pointer;
+
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  /* Navigation */
+  .btn_group {
+    display: none;
+  }
+  .menu {
+    flex: 1;
+    margin-left: 50px;
+  }
+  .details_car {
+    margin: 10px 0;
+  }
+  .products h2 {
+    text-align: center;
+  }
+  .box_product h3 {
+    text-align: center
+  }
+  .news {
+    text-align: center;
+  }
+  .footer_title {
+    text-align: center;
+  }
+  .list_key-item {
+    font-size: 2rem;
+  }
+
+}
