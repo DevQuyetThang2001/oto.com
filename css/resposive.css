@@ -1,5 +1,11 @@
 /* Mobile */
 @media (max-width: 739px) {
+    .container {
+      margin-top: 130px;
+    }
+    .box_menu {
+      margin-top: 10px;
+    }
     .box_login-acc {
        visibility: hidden;
     }
@@ -14,6 +20,9 @@
     .logo_img {
       width: 100%;
       object-fit: contain;
+      position: relative;
+      top: 0;
+      left: 0;
     }
     .details_car {
       margin: 5px;
@@ -50,10 +59,10 @@
     .menu_mobile-item {
       list-style: none;
       font-weight:bold;
-      padding: 40px;
+      padding: 20px;
       border-bottom: 1px solid #f3f3f3;
       text-align: center;
-      font-size: 3rem;
+      font-size:3rem;
     }
     .menu_mobile-account {
       text-align: center;
@@ -77,6 +86,26 @@
       padding: 20px 0;
       cursor: pointer;
 
+    }
+    .btn_watch {
+      font-size: 1.2rem;
+    }
+    .products h2,.box_product h3 {
+      text-align: center;
+    }
+    .product_info {
+      font-size: 2rem;
+    }
+    .product_price {
+      font-size: 1.9rem;
+      margin-top: 30px;
+    }
+    .news h4,.news p {
+      text-align: center;
+    }
+    .btn_news {
+
+      margin: 30px 46px;
     }
 }
 
@@ -110,5 +139,6 @@
   .list_key-item {
     font-size: 2rem;
   }
+  
 
 }
